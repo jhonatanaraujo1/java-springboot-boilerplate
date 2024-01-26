@@ -126,6 +126,21 @@ example server configurations are provided, choose one based on your requirement
 
 Unfortunately, the test for this section did not pass ❌, but it is crucial for all projects. I'll do it later.
 
+### Monitoring
+
+🚨 **Monitoring is Essential!**
+
+While the monitoring setup is currently not in place (❌), I recognize its importance in ensuring the health and performance of the application. Rest assured, I'll be working on implementing a robust monitoring solution to keep track of key metrics, identify issues promptly, and ensure a smooth user experience.
+
+---
+
+### CI/CD
+
+🔄 **Continuous Integration/Continuous Deployment (CI/CD) Coming Soon** 🚨
+
+I acknowledge the absence of CI/CD setup (❌) at the moment, but I want you to know that it's high on my priority list. Implementing CI/CD pipelines is crucial for automating the testing and deployment processes, ensuring code quality, and delivering updates seamlessly. Stay tuned for upcoming improvements in this area!
+
+
 ### Contributing
 
 If you find this project helpful or valuable, consider giving it a star! ⭐ Also, follow me on LinkedIn for updates and
