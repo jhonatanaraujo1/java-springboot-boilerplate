@@ -122,6 +122,10 @@ in a containerized environment.
 To enable email functionalities, provide the necessary SMTP server credentials in the application.properties file. Two
 example server configurations are provided, choose one based on your requirements.
 
+### Unit Testing
+
+Unfortunately, the test for this section did not pass ❌, but it is crucial for all projects. I'll do it later.
+
 ### Contributing
 
 If you find this project helpful or valuable, consider giving it a star! ⭐ Also, follow me on LinkedIn for updates and
