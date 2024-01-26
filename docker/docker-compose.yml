@@ -1,0 +1,22 @@
+version: '3'
+services:
+  exemple-db-container:
+    image: 'postgres:11'
+    container_name: exemple-db-container
+    environment:
+      - POSTGRES_DB=exemple-db
+      - POSTGRES_USER=dev
+      - POSTGRES_PASSWORD=dev
+    ports:
+      - "5433:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - exemple-network
+
+volumes:
+  db_data:
+
+networks:
+  exemple-network:
+    driver: bridge

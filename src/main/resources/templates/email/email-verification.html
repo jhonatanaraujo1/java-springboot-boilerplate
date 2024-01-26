@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Email</title>
+    <style>
+
+        .footer, .header {
+            background-color: #eaf1eb;
+            padding: 10px;
+        }
+
+        .footer {
+            color: #656565;
+            text-align: center;
+            font-size: 10px;
+            margin-top: 10px;
+        }
+
+        .header {
+            text-align: center;
+            color: #141414;
+            margin-bottom: 10px;
+        }
+
+        .highlight, a {
+            color: #02BA54 !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .highlight {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 41px;
+            height: 41px;
+            vertical-align: middle;
+        }
+
+        .content {
+            margin: auto;
+            display: block;
+            max-width: 600px;
+            min-height: 300px;
+            background-color: #ffffff;
+            border: 1px solid #ececec;
+        }
+
+        .content-wrapper {
+            background-color: #F7F7F7;
+            color: #191919;
+            font-size: 14px;
+        }
+
+        .email-body {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="content-wrapper">
+    <div class="content">
+        <div class="header">
+            <img class="logo" src="https://cdn-icons-png.flaticon.com/512/3449/3449305.png">
+            <span style="vertical-align: middle; font-size: 30px">Your Company Name</span>
+        </div>
+
+        <div class="email-body">
+            <p>Hello [[${user.getFirstName()}]] [[${user.getLastName()}]],</p>
+            <p>Welcome to our platform. Now you have full access to our website. Please read the instructions and follow them carefully.</p>
+            <p class="highlight">[[${code}]]</p>
+            <p>After entering your code, your account will be activated. We hope you have a great experience using our services.</p>
+            <p>Best regards,
+                <br>
+                Your Company Name</p>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 by Your Company Name</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
