@@ -1,8 +1,7 @@
 # Boilerplate JAVA 17 SpringBoot 
 
 **Boilerplate JAVA 17 SpringBoot** - A boilerplate for Spring Boot with JWT authentication, email functionalities, and
-much more. 🚀⭐
-
+much more. 🚀⭐⚡
 ---
 
 ## Overview
