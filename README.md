@@ -23,7 +23,7 @@ be something very similar to this ⚡🚀⭐
 - CORS filter configuration
 - Token provider and JWT authentication filter
 - User roles with permissions
-- Email functionalities (account creation, email verification, password reset)
+- Email functionalities (account creation, email verification, login, password reset, password forget)
 - Example controller, service, repository, entity, and domain
 - Exception handling
 - Seeder for initial user creation with example permissions
